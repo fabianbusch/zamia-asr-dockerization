@@ -12,7 +12,11 @@ Luckily [Zamia-ASR](http://zamia-speech.org/asr/) is one of the projects which a
 
 ![Architecture Draft](abstraction_architecture.jpg)
 
+Because of older python dependencies, inside the container Python with Version 2 is used. Please be aware of that since Python2 runs out of Long-Term-Support at the 1. January of 2020. This means no more updates in any kind.
+
 ### API Usage
+
+Example Request: ```curl -X POST -F audio=@"<path/to/file>.wav" "http://<dockerhost>:5000/transcribe"```
 
 ## Building and Running the Docker Images
 

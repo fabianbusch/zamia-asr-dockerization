@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
 #
@@ -37,7 +37,7 @@ from optparse import OptionParser
 from kaldiasr.nnet3 import KaldiNNet3OnlineModel, KaldiNNet3OnlineDecoder
 
 # Changed
-DEFAULT_MODELDIR = '/opt/kaldi/model/kaldi-generic-de-tdnn_f'
+DEFAULT_MODELDIR = '/opt/kaldi/model/kaldi-generic-en-tdnn_f'
 
 parser = OptionParser("usage: %prog [options] foo.wav [bar.wav ...]")
 
