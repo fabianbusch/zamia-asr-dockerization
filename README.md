@@ -19,7 +19,7 @@ Luckily [Zamia-ASR](http://zamia-speech.org/asr/) is one of the projects which a
 There are two docker images which build up the final API:
 
 1. zamia-asr-base: This image builds up on Debian 10 and installs all requirements for zamia-scripts.
-2. zamia-asr-server: This image uses the first one to run a flask-based HTTP-server which in turn calls the demonstration scripts with specific commands.
+2. zamia-asr-server: This image uses the first one to run a [flask-based](https://flask.palletsprojects.com/en/1.1.x/) Python HTTP-Server which in turn calls the demonstration scripts with specific commands.
 
 ## Base Image
 
