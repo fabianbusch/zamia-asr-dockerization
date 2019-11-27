@@ -26,6 +26,10 @@ else:
 
 # Example Request: curl -X POST -F audio=@"path/to/file.wav" "http://127.0.0.1:5000/transcribe"
 
+@app.after_request
+def apply_caching(response):
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    return response
 
 @app.route("/transcribe", methods=["GET", "POST"])
 def handle_transcribe():
