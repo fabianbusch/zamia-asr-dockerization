@@ -4,11 +4,13 @@
 
 There are many open-source projects available to build an automatic speech recognition (asr) system. But with all of these libraries/systems, there comes a huge demand for in-depth knowledge to develop some asr on your own. Furthermore, there are hardware and data-set requirements which are not easy to fulfill.
 
-Luckily Zamia-ASR is one of the projects which attempts to provide already usable speech-models and instructions as well as demo scripts to use them. As of today, they published language models for English and German language which work well in noisy conditions and on different microphone recordings.
+Luckily [Zamia-ASR](http://zamia-speech.org/asr/) is one of the projects which attempts to provide already usable speech-models and instructions as well as demo scripts to use them. As of today, they published language models for English and German language which work well in noisy conditions and on different microphone recordings.
 
-Zamia is based on Kaldi, which is one of the most used solutions in the field of asr system development. This project makes use of the demonstration scripts and tries to abstract them as an easy-to-use REST-API.
+[Zamia](http://zamia-speech.org/asr/) is based on Kaldi, which is one of the most used solutions in the field of asr system development. This project makes use of the demonstration scripts and tries to abstract them as an easy-to-use REST-API.
 
 ### Abstraction Architecture as by now
+
+![Architecture Draft](abstraction_architecture.jpg)
 
 ### API Usage
 
